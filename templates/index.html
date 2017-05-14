@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Remote command UI</title>
+</head>
+<body>
+
+<form action="/echo" method="POST">
+    <input name="text">
+    <input type="submit" value="Echo">
+</form>
+
+<br><br>
+
+<form action="/calc" method="POST">
+    <input type="submit" name="submit" value="calc">
+</form>
+
+<form action="/test" method="POST">
+    <input type="submit" name="submit" value="You won't be able to close calc">
+</form>
+
+</body>
+</html>
